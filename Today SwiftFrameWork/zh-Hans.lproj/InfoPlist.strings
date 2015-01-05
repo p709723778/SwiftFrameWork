@@ -5,4 +5,4 @@
   Created by Soto on 15/1/5.
   Copyright (c) 2015年 Soto. All rights reserved.
 */
-CFBundleDisplayName = "C-Today"; //此处是App名称本地化
+CFBundleDisplayName = "C-Today"; //此处是Today显示名称本地化
