@@ -15,6 +15,8 @@ class ViewController : UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 		let parameters = ["symbols" : "111"]
 		Alamofire.request(.GET, HTTPBinRoute.Action(API_RequestUrl_UserLogin), parameters : parameters)
+
+		localizeString("key")
 	}
 
 	override func didReceiveMemoryWarning() {
