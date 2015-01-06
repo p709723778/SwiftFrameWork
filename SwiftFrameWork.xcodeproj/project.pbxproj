@@ -37,6 +37,8 @@
 		9804B2201A5A9AA600DA3D61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9804B2221A5A9AA600DA3D61 /* InfoPlist.strings */; };
 		9804B2261A5A9AF300DA3D61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9804B2281A5A9AF300DA3D61 /* InfoPlist.strings */; };
 		982B36961A5BBF20001DAC6A /* LocalizeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B36951A5BBF20001DAC6A /* LocalizeString.swift */; };
+		98F904771A5BF40200C5ACA9 /* NetWorkReqeust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */; };
+		98F904791A5BF6A400C5ACA9 /* APIRequestUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,8 @@
 		9804B2271A5A9AF300DA3D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9804B2291A5A9AF500DA3D61 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		982B36951A5BBF20001DAC6A /* LocalizeString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeString.swift; sourceTree = "<group>"; };
+		98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkReqeust.swift; sourceTree = "<group>"; };
+		98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +334,8 @@
 			isa = PBXGroup;
 			children = (
 				982B36951A5BBF20001DAC6A /* LocalizeString.swift */,
+				98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */,
+				98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */,
 			);
 			path = Globals;
 			sourceTree = "<group>";
@@ -474,8 +480,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F904791A5BF6A400C5ACA9 /* APIRequestUrl.swift in Sources */,
 				9804B2061A5A955600DA3D61 /* RACObserve.swift in Sources */,
 				9804B1C01A5A940100DA3D61 /* ViewController.swift in Sources */,
+				98F904771A5BF40200C5ACA9 /* NetWorkReqeust.swift in Sources */,
 				982B36961A5BBF20001DAC6A /* LocalizeString.swift in Sources */,
 				9804B2071A5A955600DA3D61 /* RACSignal+Extensions.swift in Sources */,
 				9804B1BE1A5A940100DA3D61 /* SwiftFrameWork.xcdatamodeld in Sources */,

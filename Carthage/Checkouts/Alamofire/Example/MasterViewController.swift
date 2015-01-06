@@ -53,7 +53,7 @@ class MasterViewController: UITableViewController {
         if let detailViewController = segue.destinationViewController.topViewController as? DetailViewController {
             let parameters = ["symbols": ""]
             
-var response = Alamofire.request(.GET, HTTPBinRoute.Action("quote.json") , parameters: parameters)
+var response = Alamofire.request(.GET, HTTPBinRoute.Action("123/123") , parameters: parameters)
 Alamofire.request(.GET, "1", parameters: nil, encoding: ParameterEncoding.URL)
             func requestForSegue(segue: UIStoryboardSegue) -> Request? {
                 switch segue.identifier as String! {

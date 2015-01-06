@@ -26,15 +26,17 @@ import Alamofire
 enum HTTPBinRoute: URLStringConvertible {
     case Method(Alamofire.Method)
     case BasicAuth(String, String)
-
+    case Action(String)
     var URLString: String {
-        let baseURLString = "http://httpbin.org/"
+        let baseURLString = "http://httpbin.org"
         let path: String = {
             switch self {
             case .Method(let method):
                 return "/\(method.rawValue.lowercaseString)"
             case .BasicAuth(let user, let password):
                 return "/basic-auth/\(user)/\(password)"
+            case .Action(let action):
+                                return action
             }
         }()
 
