@@ -42,3 +42,25 @@ enum HTTPBinRoute: URLStringConvertible {
     }
 }
 
+//struct HTTPHost {
+//    static let production = "http://stocks-api.herokuapp.com"
+//    static let development = "http://localhost:4000"
+//}
+//
+//enum HTTPBinRoute: URLStringConvertible {
+//    case Action(String)
+//    
+//    var URLString: String {
+//        let baseURLString = HTTPHost.production
+//        let path: String = {
+//            switch self {
+//            case .Action(let action):
+//                return action
+//            }
+//            }()
+//        
+//        return NSURL(string: path, relativeToURL: NSURL(string: baseURLString))!.absoluteString!
+//    }
+//}
+
+
