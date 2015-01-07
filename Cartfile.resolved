@@ -1,4 +1,4 @@
 github "ishkawa/Alamofire" "f3c50ae7b20e507f35dee337cfe656052880fbae"
 github "Carthage/LlamaKit" "carthage-0.1.1"
 github "SwiftyJSON/SwiftyJSON" "2.1.2"
-github "ReactiveCocoa/ReactiveCocoa" "677f713b4966f2dfc392fadfd65fa9243d30abc7"
+github "ReactiveCocoa/ReactiveCocoa" "0f70ea17991ef3cc75c31be417e3e4d425bb3688"

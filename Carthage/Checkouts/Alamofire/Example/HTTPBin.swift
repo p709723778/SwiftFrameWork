@@ -26,43 +26,19 @@ import Alamofire
 enum HTTPBinRoute: URLStringConvertible {
     case Method(Alamofire.Method)
     case BasicAuth(String, String)
-    case Action(String)
+
     var URLString: String {
-        let baseURLString = "http://httpbin.org"
+        let baseURLString = "http://httpbin.org/"
         let path: String = {
             switch self {
             case .Method(let method):
                 return "/\(method.rawValue.lowercaseString)"
             case .BasicAuth(let user, let password):
                 return "/basic-auth/\(user)/\(password)"
-            case .Action(let action):
-                                return action
             }
         }()
 
         return NSURL(string: path, relativeToURL: NSURL(string: baseURLString))!.absoluteString!
     }
 }
-
-//struct HTTPHost {
-//    static let production = "http://stocks-api.herokuapp.com"
-//    static let development = "http://localhost:4000"
-//}
-//
-//enum HTTPBinRoute: URLStringConvertible {
-//    case Action(String)
-//    
-//    var URLString: String {
-//        let baseURLString = HTTPHost.production
-//        let path: String = {
-//            switch self {
-//            case .Action(let action):
-//                return action
-//            }
-//            }()
-//        
-//        return NSURL(string: path, relativeToURL: NSURL(string: baseURLString))!.absoluteString!
-//    }
-//}
-
 
