@@ -16,4 +16,4 @@ struct ReqeustDataFormat {
 }
 
 ///用户登录 接口序号: 6.1.2
-let API_RequestUrl_UserLogin = "?c=api_user&a=login&callType=" + ReqeustDataFormat.XML
+let Api_RequestUrl_UserLogin = "?c=api_user&a=login&callType=" + ReqeustDataFormat.XML

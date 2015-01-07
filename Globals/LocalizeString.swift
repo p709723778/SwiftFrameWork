@@ -10,7 +10,7 @@ import Foundation
 
 
 ///是否随着系统语言进行本地化
-let isPhoneSystemLanguage = NSUserDefaults.standardUserDefaults().boolForKey("isPhoneSystemLanguage")
+let isPhoneSystemLanguage = NSUserDefaults.standardUserDefaults().boolForKey(K_UDK_IsPhoneSystemLanguage)
 
 /**
    语言本地化读取
@@ -19,7 +19,7 @@ let isPhoneSystemLanguage = NSUserDefaults.standardUserDefaults().boolForKey("is
 
    :returns: 返回内容描述
  */
-func localizeString(key : String)->String {
+    func localizeString(key : String)->String {
 	if (isPhoneSystemLanguage) {
 		return NSLocalizedString(key, comment: key)
 	}

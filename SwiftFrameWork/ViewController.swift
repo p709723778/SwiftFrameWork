@@ -14,9 +14,11 @@ class ViewController : UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 		let parameters = ["symbols" : "111"]
-		Alamofire.request(.GET, HTTPBinRoute.Action(API_RequestUrl_UserLogin), parameters : parameters)
+		Alamofire.request(.GET, HTTPBinRoute.Action(Api_RequestUrl_UserLogin), parameters : parameters)
 
 		localizeString("key")
+        SotoPersonalLog.outPutPersonalLog()
+        
 	}
 
 	override func didReceiveMemoryWarning() {

@@ -18,7 +18,6 @@
 		9804B1E91A5A949D00DA3D61 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9804B1E81A5A949D00DA3D61 /* TodayViewController.swift */; };
 		9804B1EB1A5A949D00DA3D61 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9804B1EA1A5A949D00DA3D61 /* MainInterface.storyboard */; };
 		9804B1EE1A5A949D00DA3D61 /* Today SwiftFrameWork.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9804B1E11A5A949D00DA3D61 /* Today SwiftFrameWork.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9804B2041A5A955600DA3D61 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 9804B1F61A5A955600DA3D61 /* Helpers */; };
 		9804B2051A5A955600DA3D61 /* RAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9804B1FA1A5A955600DA3D61 /* RAC.swift */; };
 		9804B2061A5A955600DA3D61 /* RACObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9804B1FB1A5A955600DA3D61 /* RACObserve.swift */; };
 		9804B2071A5A955600DA3D61 /* RACSignal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9804B1FC1A5A955600DA3D61 /* RACSignal+Extensions.swift */; };
@@ -37,6 +36,13 @@
 		9804B2261A5A9AF300DA3D61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9804B2281A5A9AF300DA3D61 /* InfoPlist.strings */; };
 		982B36961A5BBF20001DAC6A /* LocalizeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B36951A5BBF20001DAC6A /* LocalizeString.swift */; };
 		985260391A5CD1C3005FF70A /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985260381A5CD1C3005FF70A /* SwiftColors.swift */; };
+		985260441A5CD936005FF70A /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985260431A5CD936005FF70A /* UserDefaultKeys.swift */; };
+		985260461A5CD9DC005FF70A /* NotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985260451A5CD9DC005FF70A /* NotificationKeys.swift */; };
+		985260481A5CDA4F005FF70A /* AppUseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985260471A5CDA4F005FF70A /* AppUseKeys.swift */; };
+		9852604A1A5CE139005FF70A /* AppCompanyInfoKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985260491A5CE139005FF70A /* AppCompanyInfoKeys.swift */; };
+		9852604C1A5CE473005FF70A /* GCDShortMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852604B1A5CE473005FF70A /* GCDShortMethod.swift */; };
+		985260521A5D1C26005FF70A /* SotoPersonalLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985260511A5D1C26005FF70A /* SotoPersonalLog.swift */; };
+		98A7217B1A5D292F003646D3 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7217A1A5D292F003646D3 /* UIDeviceExtension.swift */; };
 		98F904771A5BF40200C5ACA9 /* NetWorkReqeust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */; };
 		98F904791A5BF6A400C5ACA9 /* APIRequestUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */; };
 /* End PBXBuildFile section */
@@ -103,7 +109,6 @@
 		9804B1E71A5A949D00DA3D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9804B1E81A5A949D00DA3D61 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		9804B1EA1A5A949D00DA3D61 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		9804B1F61A5A955600DA3D61 /* Helpers */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Helpers; sourceTree = "<group>"; };
 		9804B1FA1A5A955600DA3D61 /* RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAC.swift; sourceTree = "<group>"; };
 		9804B1FB1A5A955600DA3D61 /* RACObserve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACObserve.swift; sourceTree = "<group>"; };
 		9804B1FC1A5A955600DA3D61 /* RACSignal+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RACSignal+Extensions.swift"; sourceTree = "<group>"; };
@@ -121,6 +126,13 @@
 		9804B2291A5A9AF500DA3D61 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		982B36951A5BBF20001DAC6A /* LocalizeString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeString.swift; sourceTree = "<group>"; };
 		985260381A5CD1C3005FF70A /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColors.swift; sourceTree = "<group>"; };
+		985260431A5CD936005FF70A /* UserDefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
+		985260451A5CD9DC005FF70A /* NotificationKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationKeys.swift; sourceTree = "<group>"; };
+		985260471A5CDA4F005FF70A /* AppUseKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUseKeys.swift; sourceTree = "<group>"; };
+		985260491A5CE139005FF70A /* AppCompanyInfoKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCompanyInfoKeys.swift; sourceTree = "<group>"; };
+		9852604B1A5CE473005FF70A /* GCDShortMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDShortMethod.swift; sourceTree = "<group>"; };
+		985260511A5D1C26005FF70A /* SotoPersonalLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SotoPersonalLog.swift; sourceTree = "<group>"; };
+		98A7217A1A5D292F003646D3 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkReqeust.swift; sourceTree = "<group>"; };
 		98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				985260381A5CD1C3005FF70A /* SwiftColors.swift */,
+				98A7217A1A5D292F003646D3 /* UIDeviceExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -264,7 +277,7 @@
 		9804B1F51A5A955600DA3D61 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				9804B1F61A5A955600DA3D61 /* Helpers */,
+				985260501A5D1C03005FF70A /* SotoPersonalHelper */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -333,11 +346,32 @@
 		982B36921A5BBE6D001DAC6A /* Globals */ = {
 			isa = PBXGroup;
 			children = (
+				985260421A5CD915005FF70A /* Keys */,
 				982B36951A5BBF20001DAC6A /* LocalizeString.swift */,
 				98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */,
 				98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */,
+				9852604B1A5CE473005FF70A /* GCDShortMethod.swift */,
 			);
 			path = Globals;
+			sourceTree = "<group>";
+		};
+		985260421A5CD915005FF70A /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				985260431A5CD936005FF70A /* UserDefaultKeys.swift */,
+				985260451A5CD9DC005FF70A /* NotificationKeys.swift */,
+				985260471A5CDA4F005FF70A /* AppUseKeys.swift */,
+				985260491A5CE139005FF70A /* AppCompanyInfoKeys.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		985260501A5D1C03005FF70A /* SotoPersonalHelper */ = {
+			isa = PBXGroup;
+			children = (
+				985260511A5D1C26005FF70A /* SotoPersonalLog.swift */,
+			);
+			path = SotoPersonalHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,7 +486,6 @@
 				9804B1C81A5A940100DA3D61 /* LaunchScreen.xib in Resources */,
 				9804B2081A5A955600DA3D61 /* Resources in Resources */,
 				9804B1C51A5A940100DA3D61 /* Images.xcassets in Resources */,
-				9804B2041A5A955600DA3D61 /* Helpers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,16 +512,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985260461A5CD9DC005FF70A /* NotificationKeys.swift in Sources */,
 				98F904791A5BF6A400C5ACA9 /* APIRequestUrl.swift in Sources */,
+				9852604C1A5CE473005FF70A /* GCDShortMethod.swift in Sources */,
 				9804B2061A5A955600DA3D61 /* RACObserve.swift in Sources */,
 				9804B1C01A5A940100DA3D61 /* ViewController.swift in Sources */,
 				98F904771A5BF40200C5ACA9 /* NetWorkReqeust.swift in Sources */,
 				982B36961A5BBF20001DAC6A /* LocalizeString.swift in Sources */,
+				985260481A5CDA4F005FF70A /* AppUseKeys.swift in Sources */,
+				9852604A1A5CE139005FF70A /* AppCompanyInfoKeys.swift in Sources */,
+				985260441A5CD936005FF70A /* UserDefaultKeys.swift in Sources */,
 				9804B2071A5A955600DA3D61 /* RACSignal+Extensions.swift in Sources */,
+				985260521A5D1C26005FF70A /* SotoPersonalLog.swift in Sources */,
 				9804B1BE1A5A940100DA3D61 /* SwiftFrameWork.xcdatamodeld in Sources */,
 				9804B2051A5A955600DA3D61 /* RAC.swift in Sources */,
 				9804B1BB1A5A940100DA3D61 /* AppDelegate.swift in Sources */,
 				985260391A5CD1C3005FF70A /* SwiftColors.swift in Sources */,
+				98A7217B1A5D292F003646D3 /* UIDeviceExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
