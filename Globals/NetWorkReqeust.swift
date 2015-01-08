@@ -9,12 +9,6 @@
 import Foundation
 import Alamofire
 
-struct HTTPHost {
-    ///正式环境
-    static let production = "http://www.jucaicp.com/"
-    ///开发环境
-    static let development = "http://192.168.1.68/"
-}
 
 enum HTTPBinRoute: URLStringConvertible {
     ///http 请求模式 post  get等
@@ -26,7 +20,7 @@ enum HTTPBinRoute: URLStringConvertible {
     ///.Action(操作连接地址)
     case Action(String)
     var URLString: String {
-        let baseURLString = HTTPHost.production
+        let baseURLString = Api_ServerAddress
         let path: String = {
             switch self {
             case .Method(let method):

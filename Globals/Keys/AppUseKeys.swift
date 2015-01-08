@@ -13,8 +13,6 @@ import Foundation
 命名规范K_UDK  K是所有Key  AUK 是取文件名AppUseKeys的每个大写字母
 */
 
-let K_AUK_isPhoneSystemLanguage = "K_AUK_isPhoneSystemLanguage"
-
 ///客户端标记id(用公司域名倒序来做Id)
 let K_AUK_ClientMarkId = "com.jucaicp"
 

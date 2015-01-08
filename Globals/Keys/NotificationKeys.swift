@@ -13,4 +13,4 @@ import Foundation
 命名规范K_NK  K是所有Key  NK 是取文件名NotificationKeys的每个大写字母
 */
 
-let K_NK_isPhoneSystemLanguage = "K_NK_isPhoneSystemLanguage"
+let K_NK_NotificationLanguageChanged = "K_NK_NotificationLanguageChanged"
