@@ -43,6 +43,7 @@
 		9852604C1A5CE473005FF70A /* GCDShortMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852604B1A5CE473005FF70A /* GCDShortMethod.swift */; };
 		985260521A5D1C26005FF70A /* SotoPersonalLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985260511A5D1C26005FF70A /* SotoPersonalLog.swift */; };
 		98A7217B1A5D292F003646D3 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7217A1A5D292F003646D3 /* UIDeviceExtension.swift */; };
+		98D1E1F81A5FAD2E006F95EE /* CookieStorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D1E1F71A5FAD2E006F95EE /* CookieStorageHelper.swift */; };
 		98F904771A5BF40200C5ACA9 /* NetWorkReqeust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */; };
 		98F904791A5BF6A400C5ACA9 /* APIRequestUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */; };
 /* End PBXBuildFile section */
@@ -133,6 +134,7 @@
 		9852604B1A5CE473005FF70A /* GCDShortMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDShortMethod.swift; sourceTree = "<group>"; };
 		985260511A5D1C26005FF70A /* SotoPersonalLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SotoPersonalLog.swift; sourceTree = "<group>"; };
 		98A7217A1A5D292F003646D3 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		98D1E1F71A5FAD2E006F95EE /* CookieStorageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookieStorageHelper.swift; sourceTree = "<group>"; };
 		98F904761A5BF40200C5ACA9 /* NetWorkReqeust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkReqeust.swift; sourceTree = "<group>"; };
 		98F904781A5BF6A400C5ACA9 /* APIRequestUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -277,6 +279,7 @@
 		9804B1F51A5A955600DA3D61 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				98D1E1F61A5FAD1F006F95EE /* CookieStorageHelper */,
 				985260501A5D1C03005FF70A /* SotoPersonalHelper */,
 			);
 			path = Helpers;
@@ -372,6 +375,14 @@
 				985260511A5D1C26005FF70A /* SotoPersonalLog.swift */,
 			);
 			path = SotoPersonalHelper;
+			sourceTree = "<group>";
+		};
+		98D1E1F61A5FAD1F006F95EE /* CookieStorageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				98D1E1F71A5FAD2E006F95EE /* CookieStorageHelper.swift */,
+			);
+			path = CookieStorageHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -529,6 +540,7 @@
 				9804B1BB1A5A940100DA3D61 /* AppDelegate.swift in Sources */,
 				985260391A5CD1C3005FF70A /* SwiftColors.swift in Sources */,
 				98A7217B1A5D292F003646D3 /* UIDeviceExtension.swift in Sources */,
+				98D1E1F81A5FAD2E006F95EE /* CookieStorageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
